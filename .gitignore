@@ -31,3 +31,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# build logs
+*.log
+
+# .NET build output & local sqlite (jangan push ke GitHub)
+backend/**/bin/
+backend/**/obj/
+*.db
+*.db-shm
+*.db-wal
