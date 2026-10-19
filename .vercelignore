@@ -1,0 +1,4 @@
+# Frontend-only deploy — backend C# tidak ikut ke Vercel
+backend/
+*.db
+*.db-*

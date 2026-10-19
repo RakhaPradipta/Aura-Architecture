@@ -1,0 +1,36 @@
+{
+  "name": "aura-architecture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/optimize-images.mjs && next build",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "optimize-images:dry": "node scripts/optimize-images.mjs --dry",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.186.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.0",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0"
+  }
+}
